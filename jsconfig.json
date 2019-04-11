@@ -6,9 +6,10 @@
       "paths": {
         "@app/*": ["src/*"],
         "@config/*": ["src/config/*"],
-        "@helpers/*": ["src/helper/*"],
-        "@models/*": ["src/model/*"],
-        "@controllers/*": ["src/controller/*"]
+        "@helpers/*": ["src/helpers/*"],
+        "@models/*": ["src/models/*"],
+        "@controllers/*": ["src/controllers/*"],
+        "@services/*": ["src/services/*"]
       }
     },
     "exclude": ["node_modules", "dist"]
